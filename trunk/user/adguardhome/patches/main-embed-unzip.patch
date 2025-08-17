@@ -3,15 +3,16 @@
 @@ -1,7 +1,9 @@
  package main
  
- import (
+-import (
 -	"embed"
++import (
 +	"archive/zip"
 +	"bytes"
 +	_ "embed"
  
  	"github.com/AdguardTeam/AdGuardHome/internal/home"
  )
-@@ -10,9 +12,14 @@ import (
+@@ -10,9 +12,14 @@
  // internal directory and the embed package is unable to embed files located
  // outside of the same or underlying directory.
  
