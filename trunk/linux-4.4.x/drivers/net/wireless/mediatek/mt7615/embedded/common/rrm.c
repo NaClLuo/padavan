@@ -2525,4 +2525,3 @@ VOID NRStateMachineInit(
 #endif /* CONFIG_11KV_API_SUPPORT*/
 
 #endif /* DOT11K_RRM_SUPPORT */
-
