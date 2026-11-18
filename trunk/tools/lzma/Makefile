@@ -3,7 +3,8 @@ include $(ROOTDIR)/rules.mk
 PKG_NAME := lzma
 PKG_VERSION := 2409
 PKG_SOURCE := $(PKG_NAME)$(PKG_VERSION).7z
-PKG_SOURCE_URL := https://www.7-zip.org/a/
+PKG_SOURCE_URL := http://atl.us.distfiles.macports.org/lzma/ \
+	https://distfiles.macports.org/lzma/
 PKG_HASH := 79b39f10b7b69eea293caa90c3e7ea07faf8f01f8ae9db1bb1b90c092375e5f3
 PKG_BUILD_DIR := $(BUILD_DIR)/$(PKG_NAME)$(PKG_VERSION)
 
